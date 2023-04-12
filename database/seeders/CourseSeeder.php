@@ -47,11 +47,12 @@ class CourseSeeder extends Seeder
                 'course_id' => $course->id
             ]);
 
-            $sections = Section::factory(4)->create(['course_id' => $course->id]);
+            $sections = Section::factory(4)->create(['course_id' =>$course->id]);
+
             foreach ($sections as $section) {
-                $lessons = Lesson::factory(4)->create(['section_id' => $section->id]);
+                $lessons = Lesson::factory(4)->create(['section_id' =>$section->id]);
                 foreach ($lessons as $lesson) {
-                    Description::factory(1)->create(['lesson_id' => $lesson->id]);
+                    Description::factory(1)->create(['lesson_id' =>$lesson->id]);
                 }
             }
 
