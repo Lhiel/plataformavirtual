@@ -22,9 +22,9 @@ class CourseSeeder extends Seeder
      */
     public function run()
     {
-        $courses = Course::factory(20)->create();
+        //$courses = Course::factory(20)->create();
 
-        foreach ($courses as $course) {
+       /* foreach ($courses as $course) {
 
             Review::factory(5)->create([
                 'course_id' => $course->id
@@ -56,7 +56,7 @@ class CourseSeeder extends Seeder
                 }
             }
 
-        }
+        }*/
 
     }
 }

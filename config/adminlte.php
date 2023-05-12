@@ -45,12 +45,12 @@ return [
     |
     */
 
-    'logo' => '<b>Sistema</b>LARAVEL',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo' => '<b><b>Infinito Virtual',
+    'logo_img' => 'vendor/adminlte/dist/img/infinitoVirtual.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'AdminLTE',
+    'logo_img_alt' => 'Infinito',
 
     /*
     |--------------------------------------------------------------------------
@@ -265,7 +265,7 @@ return [
 
         ],
         [
-            'text'        => 'Dashboard',
+            'text'        => 'Sobre Nosotros',
             'route'         => 'admin.home',
             'icon'        => 'fas fa-fw fa-tachometer-alt',
             'can'          => 'Ver dashboard'

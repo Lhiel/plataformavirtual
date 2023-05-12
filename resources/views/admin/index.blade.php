@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section ('title', 'Proyecto formativo')
+@section ('title', 'Infinito Virtual')
 
 @section ('content_header')
-    <h1>Laravel</h1>
+    <h1>Infinito</h1>
 @stop
 
 @section ('content')

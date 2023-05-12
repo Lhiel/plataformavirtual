@@ -39,9 +39,9 @@ class CourseController extends Controller
         $course->status = 3;
         $course->save();
         //enviar el correo electronico
-        $mail = new ApprovedCourse($course);
+      //  $mail = new ApprovedCourse($course);
 
-        Mail::to($course->teacher->email)->queue($mail);
+       // Mail::to($course->teacher->email)->queue($mail);
 
         return redirect()->route('admin.courses.index')->with('info', 'El curso se publico con exito');
     
