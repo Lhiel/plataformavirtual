@@ -28,7 +28,7 @@ class UserSeeder extends Seeder
     
 
         
-       // User::factory(99)->create();
+   
 
         $user = User::create([
             'name' => 'Limber Sanchez Mendoza',

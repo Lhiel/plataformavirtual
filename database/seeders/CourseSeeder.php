@@ -20,5 +20,11 @@ class CourseSeeder extends Seeder
      *
      * @return void
      */
-    
+    public function run()
+    {
+     
+
+      
+
+    }
 }
