@@ -8,7 +8,7 @@ use App\Http\Livewire\CourseStatus;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Web Routes ss
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
